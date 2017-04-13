@@ -47,11 +47,18 @@ ul { list-style: none; }
   font-family: Franklin Gothic Medium;
 }
 
-a:link { color: black; }
-a:visited { color: black; }
-a:hover { color: gray; }
+#manu-container li a:link { color: black; }
+#manu-container li a:visited { color: black; }
+#manu-container li a:hover { color: gray; }
 
-#manu-item-home { text-decoration: underline; }
+#manu-item-home span { color: #417E8A; }
+
+#manu-item-home a #underline-text {
+  height: 1px;
+  width: 43.45px;
+  background-color: #417E8A;
+  margin: 0px auto;
+}
 
 .manu-div { padding-top: 20px; width: 1200px; }
 
