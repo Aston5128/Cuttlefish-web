@@ -1,0 +1,196 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+  background-image: url(bgi.jpg);
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+
+ul { list-style: none; }
+
+.main-div { height: 100%; width: 100%; }
+
+.manu {
+  height: 63px;
+  width: 90%;
+  /*这里的 min-width 作用是设置最小的 width 成功防止了页面缩小与 float 导致的 div 下降*/
+  min-width: 1185px;
+  background-color: rgba(255, 255, 255, 0.99);
+  border-bottom: 3px solid rgba(200,200,200, 0.8);
+  padding-left: 10%;
+  /*这里的 position: fixed 是将 manu 固定在页面的顶端，不受滚动的条的影响*/
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
+.third {
+  width: 13.5%;
+  min-width: 227px;
+  height: 63px;
+  float: left;
+}
+
+.third p {
+  font-size: 12px;
+  color: gray;
+  margin-top: 24px;
+}
+
+
+#manu-container li { float: left; list-style: none; }
+
+#manu-container li a {
+  text-decoration: none;
+  margin: 20px;
+  font-family: Franklin Gothic Medium;
+}
+
+a:link { color: black; }
+a:visited { color: black; }
+a:hover { color: gray; }
+
+#manu-item-home { text-decoration: underline; }
+
+.manu-div { padding-top: 20px; width: 1200px; }
+
+.mid-blank { width: 30.5%; }
+
+.mid-blank-text {
+  font-family: Franklin Gothic Medium;
+  text-decoration: underline;
+  width: 300px;
+  padding: 138% 0px 20px 250%;
+}
+
+.content {
+  width: 100%;
+  height: 895px;
+  padding-top: 105px;
+  background-color: white;
+}
+
+.con {
+  margin: 0 auto;
+  width: 70%;
+  min-width: 1000px;
+  height: 1000px;
+}
+
+#first { margin-bottom: 120px; }
+
+#first-title {
+  text-align: center;
+  margin: 0px auto;
+  width: 150px;
+  margin-bottom: 28px;
+}
+
+#first-title h3 { font-family: Franklin Gothic Medium; }
+
+#first-title p { font-family: Papyrus; font-size: small; }
+
+#imgs {
+  width: 1000px;
+  height: 325px;
+  margin: 0px auto;
+}
+
+.item {
+  width: 270px;
+  height: 325px;
+  float: left;
+  margin: 0px 31.02px;
+  text-align:center;
+}
+
+.item a {
+  position: absolute;
+  width: 270px;
+  height: 325px;
+  text-decoration: none;
+  color: rgba(255,255,255, 0);
+  font-family: Tahoma;
+  /*这里的 z-index: 用途为使这个a标签在菜单的下面, 有一个参数, 值越大的在上面*/
+  z-index: 1;
+}
+
+.item a:link p { margin-top: 110px; }
+.item a:link p1 { margin-top: 110px; }
+
+.item a:visited {
+  position: absolute;
+  width: 270px;
+  height: 325px;
+  color: rgba(255,255,255, 1);
+}
+
+.item a:hover {
+  position: absolute;
+  width: 270px;
+  height: 325px;
+  background: rgba(61,125,140,0.75);
+  /*这里使得 hover 改变北京颜色的速度变慢，并且平滑过渡颜色*/
+  -webkit-transition:all 0.8s ease 0s;
+}
+
+.item a:hover p { 
+  color: rgba(255,255,255, 1);
+  margin-top: 113px;
+  -webkit-transition:all 0.5s ease 0s;
+}
+
+.item a:hover p1 {
+  color: rgba(255,255,255, 1);
+  margin-top: 118px;
+  -webkit-transition:all 0.2s ease 0.3s;
+}
+
+footer {
+  background-color: #242525;
+  font-size: 11px;
+  padding: 140px 0px 80px 18%;
+}
+
+footer .container { position: relative; }
+.container {
+  width: 100%;
+  min-width: 1000px;
+  height: 190px;
+  margin: 0px auto;
+}
+
+footer h2 {
+  font-family: Franklin Gothic Medium;
+  color: white;
+  /*letter-spacing 是设置字符之间的距离的*/
+  letter-spacing: 2px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+footer li { margin-bottom: 5px; }
+
+footer ul li a {
+  text-decoration: none;
+  font-family: Papyrus;
+}
+footer ul li a:link { color: #b3b1ae; }
+footer ul li a:visited { color: #b3b1ae; }
+footer ul li a:hover { color: white; }
+
+footer .footer-manu {
+  width: 800px;
+  float: left;
+}
+
+footer .footer-manu-detail {
+  float: left;
+  width: 160px;
+}
+
+#cop {
+  padding-top: 168px;
+  color: #b3b1ae;
+}
