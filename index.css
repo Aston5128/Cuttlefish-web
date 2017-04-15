@@ -6,51 +6,6 @@ body {
   background-position: fixed;
 }
 
-ul { list-style: none; }
-
-.main-div { height: 100%; width: 100%; }
-
-.manu {
-  height: 63px;
-  width: 90%;
-  /*这里的 min-width 作用是设置最小的 width 成功防止了页面缩小与 float 导致的 div 下降*/
-  min-width: 1185px;
-  background-color: rgba(255, 255, 255, 0.99);
-  border-bottom: 3px solid rgba(200,200,200, 0.8);
-  padding-left: 10%;
-  /*这里的 position: fixed 是将 manu 固定在页面的顶端，不受滚动的条的影响*/
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 2;
-}
-
-.third {
-  width: 13.5%;
-  min-width: 227px;
-  height: 63px;
-  float: left;
-}
-
-.third p {
-  font-size: 12px;
-  color: gray;
-  margin-top: 24px;
-}
-
-
-#manu-container li { float: left; list-style: none; }
-
-#manu-container li a {
-  text-decoration: none;
-  margin: 20px;
-  font-family: Franklin Gothic Medium;
-}
-
-#manu-container li a:link { color: black; }
-#manu-container li a:visited { color: black; }
-#manu-container li a:hover { color: gray; }
-
 #manu-item-home span { color: #417E8A; }
 
 #manu-item-home a #underline-text {
@@ -59,8 +14,6 @@ ul { list-style: none; }
   background-color: #417E8A;
   margin: 0px auto;
 }
-
-.manu-div { padding-top: 20px; width: 1200px; }
 
 .mid-blank { width: 30.5%; }
 
@@ -152,52 +105,4 @@ ul { list-style: none; }
   color: rgba(255,255,255, 1);
   margin-top: 118px;
   -webkit-transition:all 0.2s ease 0.3s;
-}
-
-footer {
-  background-color: #242525;
-  font-size: 11px;
-  padding: 140px 0px 80px 18%;
-}
-
-footer .container { position: relative; }
-.container {
-  width: 100%;
-  min-width: 1000px;
-  height: 190px;
-  margin: 0px auto;
-}
-
-footer h2 {
-  font-family: Franklin Gothic Medium;
-  color: white;
-  /*letter-spacing 是设置字符之间的距离的*/
-  letter-spacing: 2px;
-  font-weight: normal;
-  margin-bottom: 20px;
-}
-
-footer li { margin-bottom: 5px; }
-
-footer ul li a {
-  text-decoration: none;
-  font-family: Papyrus;
-}
-footer ul li a:link { color: #b3b1ae; }
-footer ul li a:visited { color: #b3b1ae; }
-footer ul li a:hover { color: white; }
-
-footer .footer-manu {
-  width: 800px;
-  float: left;
-}
-
-footer .footer-manu-detail {
-  float: left;
-  width: 160px;
-}
-
-#cop {
-  padding-top: 168px;
-  color: #b3b1ae;
 }
