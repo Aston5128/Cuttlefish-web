@@ -91,7 +91,7 @@ body {
   width: 270px;
   height: 325px;
   background: rgba(61,125,140,0.75);
-  /*这里使得 hover 改变北京颜色的速度变慢，并且平滑过渡颜色*/
+  /*这里使得 hover 改变背景颜色的速度变慢，并且平滑过渡颜色*/
   -webkit-transition:all 0.8s ease 0s;
 }
 
