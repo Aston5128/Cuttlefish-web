@@ -27,7 +27,7 @@ a { text-decoration: none; }
 	list-style-type: none;
 	font-family: Franklin Gothic Medium;
 	width: 120px;
-	padding: 21px;
+	padding: auto;
 	text-align: center;
 	cursor: pointer;
 	background-color: rgba(0, 0, 0, 0.6);
