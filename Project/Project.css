@@ -1,8 +1,85 @@
 #manu-item-project span { color: #417E8A; }
 
+a { text-decoration: none; }
+
 #manu-item-project a #underline-text {
   height: 1px;
   width: 53.06px;
   background-color: #417E8A;
   margin: 0px auto;
+}
+
+.middle { width: 100%; height: 400px; }
+
+.main-content {
+	margin: 130px auto;
+	width: 1000px;
+	height: auto;
+	margin-bottom: 64px;
+}
+
+.side ul {
+	z-index: 2;
+	position: absolute;
+}
+
+.side ul li {
+	list-style-type: none;
+	font-family: Franklin Gothic Medium;
+	width: 120px;
+	padding: 19.5px;
+	text-align: center;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+}
+
+.side ul li:hover {
+	background-color: #ff6700;
+	-webkit-transition: all 0.5s ease 0s;
+}
+
+.pic ul li {
+	position: absolute;
+}
+
+#img-0 { z-index: 1; }
+
+.text {
+	margin: 60px 300px;
+	font-size: 45px;
+}
+
+.text a { color: white; }
+
+#text-0 { z-index: 2; margin-top: 80px; }
+
+.tx {
+	margin: 160px 350px;
+	font-size: 30px;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.tx a { color: white; }
+
+#tx-0 { z-index: 2; margin-left: 300px; background-color: #666; }
+#tx-2 { background-color: #69c; }
+#tx-3 { background-color: #ccc; }
+#tx-4 { background-color: #f9c; }
+#tx-5 { background-color: #f99; }
+#tx-6 { background-color: #069; }
+
+.main-text {
+	width: 1200px;
+	height: 400px;
+	margin: 0px auto;
+	padding: 80px 0px;
+}
+
+.ul-project-list {
+	width: 1000px;
+	height: 400px;
+	margin: 0px auto;
+	background-color: red;
 }
