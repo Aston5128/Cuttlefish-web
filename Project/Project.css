@@ -32,6 +32,11 @@ a { text-decoration: none; }
 	cursor: pointer;
 	background-color: rgba(0, 0, 0, 0.6);
 	color: white;
+  -moz-user-select: none;  /*这部分阻止别人复制，也为被选定时更好看些*/
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  -khtml-user-select: none; 
+  user-select: none;
 }
 
 .side ul li:hover {
@@ -63,8 +68,8 @@ a { text-decoration: none; }
 
 .tx a { color: white; }
 
-#tx-0 { z-index: 2; margin-left: 300px; background-color: #666; }
-#tx-2 { background-color: #69c; }
+#tx-0 { z-index: 2; margin-left: 300px; background-color: #69c; }
+#tx-2 { background-color: #666; }
 #tx-3 { background-color: #ccc; }
 #tx-4 { background-color: #f9c; }
 #tx-5 { background-color: #f99; }
@@ -85,7 +90,18 @@ a { text-decoration: none; }
 
 .project-info div { margin: 20px auto; }
 
-.project-info div pre { font-family: Franklin Gothic Medium; margin-left: 120px; margin-top: 50px; }
+.project-info div pre {
+  font-family: Franklin Gothic Medium;
+  margin-left: 120px;
+  margin-top: 50px;
+  -moz-user-select: none;  /*这部分阻止别人复制，也为被选定时更好看些*/
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  -khtml-user-select: none; 
+  user-select: none;
+  cursor: default;  /*面子工程，使表面不显示编辑指针*/
+  color: rgb(69, 137, 148);
+}
 .project-info div a { color: black; font-family: PmingLiu; font-size: 10px; margin-left: 180px; }
 .project-info div a:hover { color: #666; }
 
