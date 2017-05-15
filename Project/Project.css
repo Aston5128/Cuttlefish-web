@@ -74,12 +74,29 @@ a { text-decoration: none; }
 	width: 1200px;
 	height: 400px;
 	margin: 0px auto;
-	padding: 80px 0px;
+	padding: 45px 0px 80px 0px;
 }
 
-.ul-project-list {
+.project-info {
 	width: 1000px;
 	height: 400px;
 	margin: 0px auto;
-	background-color: red;
 }
+
+.project-info div { margin: 20px auto; }
+
+.project-info div pre { font-family: Franklin Gothic Medium; margin-left: 120px; margin-top: 50px; }
+.project-info div a { color: black; font-family: PmingLiu; font-size: 10px; margin-left: 180px; }
+.project-info div a:hover { color: #666; }
+
+.main-text-info h3 {
+  text-align: center;
+  font-family: Franklin Gothic Medium;
+}
+
+.main-text-info p { 
+  text-align: center;
+  font-family: Papyrus;
+  font-size: small;
+}
+
