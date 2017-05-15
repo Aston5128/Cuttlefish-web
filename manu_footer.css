@@ -16,7 +16,7 @@ ul { list-style: none; }
   position: fixed;
   top: 0px;
   left: 0px;
-  z-index: 3;
+  z-index: 1000;
 }
 
 .third {
@@ -31,11 +31,6 @@ ul { list-style: none; }
   color: gray;
   margin-top: 24px;
   width: 228px;
-  -moz-user-select: none;  /*这部分阻止别人复制，也为被选定时更好看些*/
-  -webkit-user-select: none; 
-  -ms-user-select: none; 
-  -khtml-user-select: none; 
-  user-select: none;
 }
 
 #manu-container li { float: left; list-style: none; }
@@ -44,6 +39,11 @@ ul { list-style: none; }
   text-decoration: none;
   margin: 20px;
   font-family: Franklin Gothic Medium;
+  -moz-user-select: none;  /*这部分阻止别人复制，也为被选定时更好看些*/
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  -khtml-user-select: none; 
+  user-select: none;
 }
 
 #manu-container li a:link { color: black; }
